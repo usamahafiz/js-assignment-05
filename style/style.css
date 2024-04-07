@@ -1,0 +1,17 @@
+
+main{
+    flex: 1 0 auto;
+    
+    .buttons{
+        .btn{
+            margin-bottom: 10px;
+            min-width: 45%;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+.border{
+    border-color: black !important;
+}
